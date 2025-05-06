@@ -2,7 +2,7 @@
 
 [Pedro Hermosilla](https://phermosilla.github.io) and [Christian Stippel](https://scholar.google.at/citations?user=Vf9eONQAAAAJ&hl=en) and [Leon Sick](https://leonsick.github.io/)
 
-This is the official repository of the **CVPR 2025** paper **Masked Scene Modeling: Narrowing the Gap Between Supervised and Self-Supervised Learning in 3D Scene Understanding**, and it will be mainly use to share the inference and pre-training code, as well as the pre-trained weights for the models described in our paper.
+This is the official repository of the **CVPR 2025** paper **Masked Scene Modeling: Narrowing the Gap Between Supervised and Self-Supervised Learning in 3D Scene Understanding**, and it will be mainly used to share the inference and pre-training code, as well as the pre-trained weights for the models described in our paper.
 
 [[Arxiv](https://arxiv.org/abs/2504.06719)] - [[Project](https://phermosilla.github.io/msm)]
 
@@ -24,11 +24,11 @@ Future Releases:
 
 ## Inference
 
-To generate embeddings for your scene using our pre-trained model, please refer to the [inference folder](/inference/README.md).
+To generate embeddings for your scene using our pre-trained model, please refer to the [inference folder](/inference/).
 
 ## Embedding visualization
 
-If you want to visualize your point embeddings using PCA, follow the instruction in the [visualization folder](/visualization/README.md).
+If you want to visualize your point embeddings using PCA, follow the instructions in the [visualization folder](/visualization/).
 
 ## Citation
 
