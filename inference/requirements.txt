@@ -1,0 +1,3 @@
+flash-attn==2.5.8
+numpy==1.26.4
+spconv-cu117==2.3.6
