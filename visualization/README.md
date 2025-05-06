@@ -10,8 +10,8 @@ python create_pca.py -s SCENE_PATH -sf SCENE_FEAT_PATH -o OUTPUT_TXT
 
 The script receives three inputs:
 
-* <code>SCENE_PATH</code> Scene in a torch file (same format as in the [inference script](/inference/README.md)). This file is used to obtain the point coordinates. 
-* <code>SCENE_FEAT_PATH</code> The point features generated with the [inference script](/inference/README.md).
+* <code>SCENE_PATH</code> Scene in a torch file (same format as in the [inference script](/inference/)). This file is used to obtain the point coordinates. 
+* <code>SCENE_FEAT_PATH</code> The point features generated with the [inference script](/inference/).
 * <code>OUTPUT_TXT</code> Output path where the txt file will be saved. 
 
 The output file is a text file with a line per each point in the scene. Each line contains the point coordinates and the color components separated by space: <code>x</code> <code>y</code> <code>z</code> <code>r</code> <code>g</code> <code>b</code>. The color components are in the range 0-1. You can use [Meshlab](https://www.meshlab.net/) to visualize the colored point cloud or use our blender template to have a fancy rendering with global illumination.
