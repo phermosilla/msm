@@ -15,13 +15,20 @@ This is the official repository of the **CVPR 2025** paper **Masked Scene Modeli
 ## Schedule
 Future Releases:
 
-- [ ] Inference model code
-- [ ] Pre-trained weights
+- [x] ~~Inference model code~~
+- [x] ~~Pre-trained weights~~
 - [ ] Pre-training code
 - [ ] Pre-training config files
 - [ ] Config files ablation studies
-- [ ] PCA feature visualization code
+- [x] ~~PCA feature visualization code~~
 
+## Inference
+
+To generate embeddings for your scene using our pre-trained model, please refer to the [inference folder](/inference/README.md).
+
+## Embedding visualization
+
+If you want to visualize your point embeddings using PCA, follow the instruction in the [visualization folder](/visualization/README.md).
 
 ## Citation
 
