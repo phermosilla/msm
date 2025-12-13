@@ -218,11 +218,6 @@ class MSM3D_Encoder(nn.Module):
         else:
             self.final_stem = None
 
-    
-    def set_condition(self, condition):
-        if not self.ppt_context_manager is None:
-            self.ppt_context_manager.set_condition(condition)
-
 
     def create_sparse_tensor(self, input_dict):
 

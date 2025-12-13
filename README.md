@@ -17,9 +17,8 @@ Future Releases:
 
 - [x] ~~Inference model code~~
 - [x] ~~Pre-trained weights~~
-- [ ] Pre-training code
-- [ ] Pre-training config files
-- [ ] Config files ablation studies
+- [x] ~~Pre-training code~~
+- [x] ~~Pre-training config files~~
 - [x] ~~PCA feature visualization code~~
 
 ## Inference

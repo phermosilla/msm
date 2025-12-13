@@ -1,0 +1,21 @@
+addict
+timm
+pandas
+plyfile
+wandb==0.13.*
+sharedarray
+scikit-learn
+tensorboard
+tensorboardx
+yapf==0.40.1
+flash-attn==2.5.8
+numpy==1.26.4
+spconv-cu117==2.3.6
+-f https://data.pyg.org/whl/torch-2.0.0+cu117.html
+torch-scatter
+torch-cluster
+torch-sparse
+torch-geometric
+clip @ git+https://github.com/openai/CLIP.git
+./libs/pointops
+./libs/pointgroup_ops
