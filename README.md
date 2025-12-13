@@ -46,6 +46,10 @@ msm
 
 
 ### Inference
+We provide the code to train the self-supervised model by yourself and to evaluate the pre-trained model on the experiments presented in the paper. 
+You can find mode information on the [training folder](/training/).
+
+### Inference
 Our model can generate **semantic off-the-shelf feature embeddings for any 3D scene**.
 For this, we provide an installation manual and an inference script that works out of the box.
 To generate embeddings for your scene using our pre-trained model, please refer to the [inference folder](/inference/).
