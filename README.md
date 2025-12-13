@@ -45,7 +45,7 @@ msm
 ```
 
 
-### Inference
+### Training
 We provide the code to train the self-supervised model by yourself and to evaluate the pre-trained model on the experiments presented in the paper. 
 You can find mode information on the [training folder](/training/).
 
