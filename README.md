@@ -27,12 +27,20 @@ msm
 │   ├── model_cfg.py
 │   ├── preprocessor.py
 │   └── requirements.txt
+├── training/
+│   ├── configs/
+│   ├── libs/
+│   ├── pointcept/
+│   ├── tools/
+│   ├── README.md
+│   ├── dependencies.sh
+│   └── requirements.txt
 ├── visualization/
 │   ├── README.md
 │   ├── blender_load_colored_pc.py
 │   ├── blender_template.blend
 │   ├── create_pca.py
-│   └── LICENSE
+├── LICENSE
 └── README.md
 ```
 
